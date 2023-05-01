@@ -17,7 +17,7 @@ the website link is http://shop.tetonelectronics.com/
 2. Need good internet connectivity
 
 # Run the automation script:
-1. Open cmd to the project folder
+1. Open Terminal from IntelliJ
 2. Type this command: (**gradle clean test**)
 3. Selenium will open the browser and start automation.
 4. To view report
