@@ -1,11 +1,15 @@
 package BaseURL;
 
+import Utils.Utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class SetUp {
@@ -20,7 +24,7 @@ public class SetUp {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
-/*
+
     @AfterMethod
     public void ScreenShot(ITestResult result) throws IOException {
         if (ITestResult.SUCCESS == result.getStatus()) {
@@ -32,7 +36,6 @@ public class SetUp {
             }
         }
     }
-*/
     @AfterTest
     public void closeDriver() {
 
