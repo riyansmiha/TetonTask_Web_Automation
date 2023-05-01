@@ -13,5 +13,5 @@ Language: Java
 Test_Runner: TestNG Test Runner
 
 # Prerequisite:
-Need to install jdk 1.8
-Need good internet connectivity
+1. Need to install jdk 1.8
+2. Need good internet connectivity
