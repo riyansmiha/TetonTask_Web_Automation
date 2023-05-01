@@ -18,6 +18,6 @@ the website link is http://shop.tetonelectronics.com/
 
 # Run the automation script:
 1. Open cmd to the project folder
-2. Type this command: (**gradle clean test)
+2. Type this command: (**gradle clean test**)
 3. Selenium will open the browser and start automation.
 4. To view report
