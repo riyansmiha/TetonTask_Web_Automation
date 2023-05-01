@@ -11,3 +11,7 @@ IDE: IntelIJ
 Build tool: Gradle
 Language: Java
 Test_Runner: TestNG Test Runner
+
+# Prerequisite:
+Need to install jdk 1.8
+Need good internet connectivity
